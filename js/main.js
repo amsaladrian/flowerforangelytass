@@ -2,7 +2,7 @@ window.onload = () => {
   const music = document.getElementById('bg-music');
   const playBtn = document.getElementById('play-music');
   const titleElement = document.getElementById('title');
-
+  music.loop = true;
   // Ketika tombol diklik:
   playBtn.addEventListener('click', () => {
     // Play musik
