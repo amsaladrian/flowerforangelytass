@@ -3,6 +3,7 @@ window.onload = () => {
   const playBtn = document.getElementById('play-music');
   const titleElement = document.getElementById('title');
   music.loop = true;
+  music.currentTime = 0
 
   // Tampilkan teks satu per satu (fungsi disiapkan dulu)
   const titles = ('Happy girlfriend day sayangkuu, love u so much angelytas cantikkuu, hope u like it :) <3').split('');
